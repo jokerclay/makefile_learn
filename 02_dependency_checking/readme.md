@@ -2,7 +2,7 @@
 
 - how `make` decide what to do ? <br>
 
-  (1). `make` notices commandline contains no targets, so it make the default gobal `count_words`
+(1). `make` notices commandline contains no targets, so it make the default gobal `count_words`
 
 ```makefile
 # default gobal========>check prerequisites
