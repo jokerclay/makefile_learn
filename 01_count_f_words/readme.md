@@ -1,4 +1,4 @@
-# combine file in makefile
+# combine files in makefile
 
 ```makefile
 
