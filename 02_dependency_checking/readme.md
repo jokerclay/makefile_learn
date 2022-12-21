@@ -16,14 +16,14 @@
 #               |                                                |
 #               |                                                |
 count_words: count_words.o lexer.o -lfl                         #|
-	gcc count_words.o lexer.o -lfl -o count_words               #|
+	gcc count_words.o lexer.o -lfl -o count_words           #|
                                                                  |
        +---------------------------------------------------------+
        |
        |<------------------------+
        V                         |
 count_words.o: count_words.c    #|
-	gcc -c count_words.c        #|
+	gcc -c count_words.c    #|
 #   --------+-----------         |
 #           |execuse this get .o |
 #           +--------------------+
