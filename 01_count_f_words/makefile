@@ -7,9 +7,6 @@ count_words.o: count_words.c
 lexer.o: lexer.c
 	gcc -c lexer.c
 
-
-
-
 ################################################
 # 
 # flex is A fast scanner generator
@@ -22,9 +19,10 @@ lexer.o: lexer.c
 # * basiclly speaking
 #
 # +----------+  flex +----------+   gcc  +-----------+ 
-# |  lex.l   | ----> |  lex.c   |  ----> |executeable|  
+# |  lex.l   | ----> |  lex.c   |  ----> |lexer.0    |  
 # +----------+       +----------+        +-----------+ 
 #                                                                                         
 ################################################
 lexer.c: lexer.l
 	flex -t lexer.l > lexer.c
+

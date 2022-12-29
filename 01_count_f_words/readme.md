@@ -12,8 +12,6 @@ lexer.o: lexer.c
 	gcc -c lexer.c
 
 
-
-
 ################################################
 #
 # flex is A fast scanner generator

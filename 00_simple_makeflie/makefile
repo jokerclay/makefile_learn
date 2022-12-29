@@ -49,7 +49,5 @@
 # 6. one file will be considered newer than another if it has been modified more recently
 #
 
-```makefile
-main:main.c 
+main:main.c
 	 gcc main.c -o main
-```
